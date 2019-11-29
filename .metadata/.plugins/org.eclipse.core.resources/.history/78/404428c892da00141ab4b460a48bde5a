@@ -1,0 +1,53 @@
+package com.example.sdknative;
+
+import com.netmego.miguyouxinative.MiguSDKFactory;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Bundle;
+import android.telephony.TelephonyManager;
+import android.util.Log;
+
+public class temper extends Activity
+{
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) 
+	{		
+		super.onCreate(savedInstanceState);
+		
+		Intent intent;
+
+		intent = new Intent(this, MainActivity.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		this.startActivity(intent);
+
+		finish();
+		
+		switch (MiguSDKFactory.getTest()) 
+		{
+			case BILL_CMGD:
+				try
+				{
+					intent = new Intent(this, cn.cmgame.billing.api.GameOpenActivity.class);
+					intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+					this.startActivity(intent);
+				}
+				catch(Exception e)
+				{
+					e.printStackTrace();
+				}
+			break;
+			default:
+				intent = new Intent(this, MainActivity.class);
+				intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				this.startActivity(intent);
+			break;
+		}
+		
+		finish();
+	}
+}

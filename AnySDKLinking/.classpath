@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Unity434f1/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="lib" path="C:/Publishing/RingTiger/SDK/AnySDK/AnySDK_for_WinX64_All-In-One/AnySDK_for_WinX64_All-In-One/MiSDKwithAnySDK/AnySDK_Framework_Java/libAnySDK/libs/libPluginProtocolForJava_fat.jar"/>
+	<classpathentry kind="lib" path="C:/Publishing/RingTiger/SDK/11. ChinaMobile(MM)/13-MMBillingSDK_RELEASE(v3.0.1)1014/IAP-SDK 3.0.1版/mmbilling3.0.1/libs/mmbilling.3.0.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

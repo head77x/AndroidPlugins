@@ -1,0 +1,76 @@
+package com.netmego.miguyouxisdk;
+
+import com.netmego.megosdk.BillingPayListener;
+import com.netmego.megosdk.ExitListener;
+import com.netmego.megosdk.SDKFactoryBase;
+
+import mm.purchasesdk.Purchase;
+
+import android.app.Activity;
+import android.content.Context;
+
+public class CMMM_Manager extends SDKFactoryBase
+{
+	private static Activity _context;
+	
+	private String _appid;
+	private String _appKey;
+	
+	public  Purchase purchase;
+	
+	private static CMMM_Manager _singletonSmsPayCMCCMM;
+	public static CMMM_Manager getInstance() 
+	{
+		return _singletonSmsPayCMCCMM;
+	}
+	
+		private CMMM_Manager(BillingPayListener listener, String MM_appid, String MM_appkey) 
+		{
+			_appid = MM_appid;
+			_appKey = MM_appkey;
+			
+			purchase = Purchase.getInstance();
+			
+			try {
+				CMMM_Manager.getInstance().purchase.setAppInfo(_appid, _appKey);
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+			
+			try {
+				CMMM_Manager.getInstance().purchase.init(_context, listener);
+			} catch (Exception e) {
+				 e.printStackTrace();
+			}
+		}
+		
+		public static CMMM_Manager initSingleton(Activity context, String MM_appid, String MM_appkey, BillingPayListener listener) 
+		{
+			_context = context;
+			if (_singletonSmsPayCMCCMM == null) {
+				_singletonSmsPayCMCCMM = new CMMM_Manager(listener, MM_appid, MM_appkey);
+			}
+			return _singletonSmsPayCMCCMM;
+		}
+		
+		@Override
+		public void pay(Context context, String smsPayItem, String props, String paycode_3rd, String Money, String AppID, BillingPayListener listener, boolean isRepeated) 
+		{
+			purchase.order(context, smsPayItem, 1, props, false, listener );
+		}
+
+		@Override
+		public void exitGame(Context context, ExitListener listener) {
+			listener.forceExitingGame();
+		}
+
+		@Override
+		public void viewMoreGames(Context context) {
+			// Do nothing...
+		}
+
+		@Override
+		public boolean isMusicEnabled() {
+			return true;
+		}
+	}

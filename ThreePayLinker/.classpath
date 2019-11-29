@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity356/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/6. AllPay/GC+UNICOM+CTE/GC+UNICOM+CTE/Demo/Demo/libs/CTEStoreSDKLocalSms2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/6. AllPay/GC+UNICOM+CTE/GC+UNICOM+CTE/Demo/Demo/libs/Multimode_UniPay_base.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/6. AllPay/GC+UNICOM+CTE/GC+UNICOM+CTE/Demo/Demo/libs/Multimode_UniPay_extend.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/6. AllPay/GC+UNICOM+CTE/GC+UNICOM+CTE/Demo/Demo/runtime/CMBilling.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/6. AllPay/AllBill/Assets/Plugins/Android/libs/mmsmsbilling1.2.3.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

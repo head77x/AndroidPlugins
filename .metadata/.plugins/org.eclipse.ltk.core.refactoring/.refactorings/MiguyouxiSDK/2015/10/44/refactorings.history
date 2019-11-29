@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MiguLogoSplash.java&apos; to &apos;MiguyouxiNative/src/com.netmego.miguyouxinative&apos;&#x0D;&#x0A;- Original project: &apos;MiguyouxiSDK&apos;&#x0D;&#x0A;- Destination element: &apos;MiguyouxiNative/src/com.netmego.miguyouxinative&apos;&#x0D;&#x0A;- Original element: &apos;com.netmego.miguyouxisdk.MiguLogoSplash.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=MiguyouxiNative/src&lt;com.netmego.miguyouxinative" element1="/src&lt;com.netmego.miguyouxisdk{MiguLogoSplash.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1445961417166" units="1" version="1.0"/>
+</session>

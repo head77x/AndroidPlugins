@@ -1,0 +1,99 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netmego.nativemigu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.snowfish.cn.ganga.helper.SFOnlineApplication" >
+        <!--프로젝트의 Package 명을 com.netmego.nativemigu 대신 쓰세요. temper 패키지명 -->
+        <activity android:name="com.netmego.nativemigu.temper"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:screenOrientation="landscape">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <!--프로젝트의 Package 명을 com.netmego.nativemigu 대신 쓰세요. MainActivity 패키지명 -->
+  	    <activity android:name="com.netmego.nativemigu.MainActivity"
+  	        android:screenOrientation="landscape">
+	      <intent-filter>
+	        <action android:name="android.intent.action.MAIN" />
+	   	      </intent-filter>
+	    </activity>
+      
+        <!--프로젝트의 Package 명을 com.netmego.nativemigu 대신 쓰세요. -->
+  	<activity
+        android:name="com.netmego.nativemigu.RTLogoSplash"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:screenOrientation="landscape" />
+ 	<activity android:name="com.paymentwall.sdk.pwlocal.ui.PwLocalActivity" 
+ 	    android:configChanges="keyboard|keyboardHidden|orientation" 
+ 	    android:theme="@android:style/Theme.Translucent" />
+ 	
+    <service
+            android:name="com.snowfish.a.a.s.ABGSvc"
+            android:enabled="true" 
+            android:process="com.snowfish.a.a.bg">
+            <intent-filter>
+                <action android:name="com.snowfish.a.a.s.ABGSvc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+    
+    <service android:name="com.qy.pay.a.e" />
+    <activity android:name="com.qy.pay.a.b" android:configChanges="keyboard|keyboardHidden|navigation|orientation" />
+
+    <!--SP의 경우, 아래에 "001"~ 시작하는 아이템 항목에 SP를 붙인 이름 및 관련 결제키값 등록 -->
+    <meta-data android:value="\05144796" android:name="SP001"/>
+    
+    <meta-data android:value="\064" android:name="BTypeValue"/>
+
+        <meta-data
+            android:name="com.snowfish.appid"
+            android:value="{20C36611-FDCA7470}" >
+        </meta-data>
+		<meta-data   
+		    android:name="com.snowfish.channelid"   
+		    android:value="{4ff036a1-3254eafe}"> 
+		</meta-data>        
+        <meta-data
+            android:name="com.snowfish.customer"
+            android:value="snowfish" >
+        </meta-data>
+        <meta-data
+            android:name="com.snowfish.channel"
+            android:value="snowfish" >
+        </meta-data>
+        <meta-data
+            android:name="com.snowfish.sdk.version"
+            android:value="2" >
+        </meta-data>
+    
+    
+    </application>
+    
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    
+</manifest>

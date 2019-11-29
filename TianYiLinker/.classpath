@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity356/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/4. ChinaTelecom(TIANYI)/gamestore/SDK2.0.2/SDK2.0.2/CTEStoreSDKLocalSms2.0.2/libs/CTEStoreSDKLocalSms2.0.2.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

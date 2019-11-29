@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Login&apos; into R.string.login" description="Extracts string &apos;Login&apos; into R.string.login" file="/migosimplelogin/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/migosimplelogin" rplc-all-java="false" rplc-all-xml="false" sel-end="547" sel-start="528" stamp="1448895938595" tok-esc="Login" xml-attr-name="android:text"/>
+</session>

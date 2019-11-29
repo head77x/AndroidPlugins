@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/RingTiger/SDK/2. ChinaMobile(JIDI)/ChinaMobileSDK/SDK/runtime/CMBilling.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity356/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

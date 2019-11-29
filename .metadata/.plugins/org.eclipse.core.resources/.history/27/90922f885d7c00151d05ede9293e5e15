@@ -1,0 +1,153 @@
+package com.netmego.miguyouxinative;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+
+
+import com.netmego.miguyouxinative.MiguSDKFactory.BillingListener;
+import com.netmego.miguyouxinative.MiguSDKFactory.ExitGameListener;
+import com.snowfish.cn.ganga.offline.helper.SFCommonSDKInterface;
+import com.snowfish.cn.ganga.offline.helper.SFGameExitListener;
+import com.snowfish.cn.ganga.offline.helper.SFIPayResultListener;
+
+public class YiJie_Manager extends SDKFactoryBase
+{
+	class PayListener extends SFIPayResultListener {
+		
+		String result;
+
+		@Override
+		public void onCanceled(String remain) {
+            result = TryItem + "|2|付款取消";
+	    		System.out.println("Brandon : dian xin pay cancel :" + result);
+            MasterListener.onPurchaseCanceld(TryItem, result);
+			
+		}
+  
+		@Override         
+		public void onFailed(String remain) {   
+            result = TryItem + "|0|支付失败：错误代码："+remain;
+            
+	    		System.out.println("Brandon : dian xin pay failed :" + result);
+	    		
+            MasterListener.onPurchaseFailed(TryItem, result);
+			
+		}
+
+		@Override
+		public void onSuccess(String remain) {
+    		try
+    		{
+    			
+            	MiguSDKFactory.getInstance().NoticeToMiguServer(
+            			TryItem, 
+            			TryMoney,
+				"China Telecom All");
+    		}
+    		catch(Exception ept)
+    		{
+	    		System.out.println("Brandon : cannot logging :" + ept);
+    		}
+    		
+          result = TryItem + "|1|付款成功";
+          
+    		System.out.println("Brandon : dian xin pay success :" + result);
+    		
+          MasterListener.onPurchaseSucceed(TryItem);
+		
+		}
+		;
+	}
+	
+
+	private String _channelID;
+	
+	String TryItem;
+	String TryMoney;
+		
+	BillingListener MasterListener;
+	
+	private Handler mUIHandler = new Handler();
+	
+	Activity mycontext;
+	
+	private YiJie_Manager(Activity context, BillingListener listener) 
+	{
+		MasterListener = listener;
+		
+		mycontext = context;
+		
+	    SFCommonSDKInterface.onInit(mycontext);
+		
+		
+		System.out.println("Brandon : dian xin Init :" + _channelID);
+	}
+		
+	private static YiJie_Manager _singletonYiJie;
+	public static YiJie_Manager getInstance() 
+	{
+		return _singletonYiJie;
+	}
+		
+	public static YiJie_Manager initSingleton(Activity context, BillingListener listener ) 
+	{
+			if (_singletonYiJie == null )
+			{
+				_singletonYiJie = new YiJie_Manager(context, listener);
+			}
+			return _singletonYiJie;
+		}
+		
+		@Override
+		public void pay(Context context, String smsPayItem, String ext_code, String props, String Money, BillingListener listener, boolean isRepeated) 
+		{
+			TryItem = smsPayItem;
+			TryMoney = Money;
+	        SFCommonSDKInterface.pay((Activity)context, smsPayItem, new PayListener());			
+		}
+
+		
+		
+		@Override
+		public void exitGame(Context context, final ExitGameListener listener) 
+		{
+
+	    	SFCommonSDKInterface.onExit((Activity)context, new SFGameExitListener () {
+
+				@Override
+				public void onGameExit(boolean flag) {
+					if (flag) {
+						listener.onExitGameConfirmExit();
+					}
+				}
+	    	});			
+		}
+
+		@Override
+		public void viewMoreGames(Context context) 
+		{
+			//EgamePay.moreGame((Activity)context);
+			SFCommonSDKInterface.viewMoreGames((Activity)context);
+		}
+
+		@Override
+		public boolean isMusicEnabled() {
+			return SFCommonSDKInterface.isMusicEnabled(mycontext);
+		}
+		
+		@Override
+		public void doScreenShotShare (Context context, Uri uri) {
+			// Do nothing...
+		}
+		
+	
+
+}

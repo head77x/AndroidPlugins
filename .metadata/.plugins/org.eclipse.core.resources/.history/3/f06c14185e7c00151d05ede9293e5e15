@@ -1,0 +1,719 @@
+package com.netmego.miguyouxinative;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Vector;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.ResponseHandler;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.BasicResponseHandler;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+
+import com.snowfish.cn.ganga.helper.SFOnlineHelper;
+
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings.Secure;
+import android.telephony.TelephonyManager;
+import android.util.Log;
+
+public class MiguSDKFactory 
+{
+	private static String sdk_version = "2.2";  
+	
+	private Handler mUIHandler = new Handler();
+	
+	private static String _appName;
+	private static String _Company;
+	private static String _Telephone;
+	
+	// SDK 선택자
+	public enum SDKSelector {
+		BILL_UNKNOWN,
+		BILL_SP,
+		BILL_YIJIE
+	};
+	
+	// 빌링 결과 처리 공통 리스너
+	public interface BillingListener {
+		public void onPurchaseSucceed(String item);
+		public void onPurchaseCanceld(String item, String msg);
+		public void onPurchaseFailed(String item, String msg);
+		public void onPurchaseInfo(String item, String msg);
+	};
+	
+	// 게임 종료 처리 리스너 - CMGD 용
+	public interface ExitGameListener {
+		public void onExitGameCancelExit();
+		public void onExitGameConfirmExit();
+		public void onExitGameInGame();
+	};
+	
+	private static boolean _bIniting = false;
+	private static boolean _bInited = false;
+	
+	private static Activity _context;
+	
+	private SDKFactoryBase _smsPayer;
+	
+	private static MiguSDKFactory _singleton;
+
+	public final static int opMISMATCHES	= 0x00000000;
+	public final static int opSP			= 0x00000020;
+	public final static int opYIJIE		= 0x00000040;
+	
+	private String migu_appid;
+	private String migu_appkey;
+	
+	public static SDKSelector getBuildType(Context con)
+	{
+        Bundle metaData = null;
+		try 
+		{
+			metaData = con.getPackageManager().getApplicationInfo(con.getPackageName(), PackageManager.GET_META_DATA).metaData;
+		} 
+		catch (NameNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+
+		// 강제로 셋팅된 SDK 선택자가 있는지 여부
+		int BillType = opYIJIE;
+		
+		if ( metaData.getString("BTypeValue") == null )
+			BillType = opYIJIE;
+		else
+		try
+		{
+			BillType = Integer.valueOf(metaData.getString("BTypeValue"));
+		}
+		catch(Exception ect)
+		{
+			BillType = opYIJIE;
+		}
+		
+		Log.e("Application BTypeValue: ", BillType + "");
+
+		if (BillType == opSP) {
+			return SDKSelector.BILL_SP;
+		} 
+			
+		return SDKSelector.BILL_YIJIE;
+		
+	}
+
+	public static SDKSelector getMobileOperatorApp(Context con)
+	{
+        TelephonyManager telManager = (TelephonyManager)con.getSystemService(Context.TELEPHONY_SERVICE); 
+        String operator = telManager.getSimOperator();
+        
+        Bundle metaData = null;
+		try 
+		{
+			metaData = con.getPackageManager().getApplicationInfo(con.getPackageName(), PackageManager.GET_META_DATA).metaData;
+		} 
+		catch (NameNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		// 강제로 셋팅된 SDK 선택자가 있는지 여부
+		int BillType = opYIJIE;
+		
+		if ( metaData.getString("BTypeValue") == null )
+			BillType = opYIJIE;
+		else
+		try
+		{
+			BillType = Integer.valueOf(metaData.getString("BTypeValue"));
+		}
+		catch(Exception ect)
+		{
+			BillType = opYIJIE;
+		}
+		
+		Log.e("Application BTypeValue: ", BillType + "");
+
+		if (BillType == opSP) {
+			return SDKSelector.BILL_SP;
+		} else if (BillType == opYIJIE) {
+			return SDKSelector.BILL_YIJIE;
+		}
+		
+/*        	
+		// 강제 셋팅한게 없다면, SIM 에 따라서 자동 선택 되도록 처리
+        if (operator != null)
+        {
+            if ((operator.equals("46000") || operator.equals("46002"))) 
+            {
+            	if ((BillType & opCMCC_MM) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_MM!!!! :");
+            		return SDKSelector.BILL_CMMM;		
+				} 
+            	else if ((BillType & opCMCC_GC) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_GC!!!! :");
+					return SDKSelector.BILL_CMGD;
+				}
+            	
+            	return SDKSelector.BILL_CMGD;
+            } 
+            else 
+            if (operator.equals("46001") && (BillType & opUNICOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : UNICOM!!!! :");
+    			
+            	return SDKSelector.BILL_UNICOM;
+            } 
+            else 
+            if (operator.equals("46003") && (BillType & opTELECOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : CTE!!!! :");
+            	
+            	return SDKSelector.BILL_DIANXIN;
+            }
+            else
+                if ((BillType & opSP) != opMISMATCHES) 
+                {
+        			System.out.println("Brandon : SP!!!! :");
+                	
+                	return SDKSelector.BILL_SP;
+                }
+            	
+            
+    		System.out.println("Brandon : Cannot check !! :" + operator);
+        }
+        else
+    		System.out.println("Brandon : operator null !!" );
+*/        
+		return SDKSelector.BILL_YIJIE;
+	}
+	
+	
+	public static SDKSelector getMobileOperatorMe(Activity __context)
+	{
+        TelephonyManager telManager = (TelephonyManager)__context.getSystemService(Context.TELEPHONY_SERVICE); 
+        String operator = telManager.getSimOperator();
+        
+        Bundle metaData = null;
+		try 
+		{
+			metaData = __context.getPackageManager().getApplicationInfo(__context.getPackageName(), PackageManager.GET_META_DATA).metaData;
+		} 
+		catch (NameNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		// 강제로 셋팅된 SDK 선택자가 있는지 여부
+		int BillType = opYIJIE;
+		if ( metaData.getString("BTypeValue") == null )
+			BillType = opYIJIE;
+		else
+		try
+		{
+			BillType = Integer.valueOf(metaData.getString("BTypeValue"));
+		}
+		catch(Exception ect)
+		{
+			BillType = opYIJIE;
+		}
+		
+		
+		Log.e("BTypeValue: ", BillType + "");
+		if (BillType == opSP) {
+			return SDKSelector.BILL_SP;
+		} else if (BillType == opYIJIE) {
+			return SDKSelector.BILL_YIJIE;
+		}		
+/*		
+		// 강제 셋팅한게 없다면, SIM 에 따라서 자동 선택 되도록 처리
+        if (operator != null)
+        {
+            if ((operator.equals("46000") || operator.equals("46002"))) 
+            {
+            	if ((BillType & opCMCC_MM) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_MM!!!! :");
+            		return SDKSelector.BILL_CMMM;		
+				} 
+            	else if ((BillType & opCMCC_GC) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_GC!!!! :");
+					return SDKSelector.BILL_CMGD;
+				}
+            	
+            	return SDKSelector.BILL_CMGD;
+            } 
+            else 
+            if (operator.equals("46001") && (BillType & opUNICOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : UNICOM!!!! :");
+    			
+            	return SDKSelector.BILL_UNICOM;
+            } 
+            else 
+            if (operator.equals("46003") && (BillType & opTELECOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : CTE!!!! :");
+            	
+            	return SDKSelector.BILL_DIANXIN;
+            }
+            else
+                if ((BillType & opSP) != opMISMATCHES) 
+                {
+        			System.out.println("Brandon : SP!!!! :");
+                	
+                	return SDKSelector.BILL_SP;
+                }
+            	
+            
+    		System.out.println("Brandon : Cannot check !! :" + operator);
+        }
+        else
+    		System.out.println("Brandon : operator null !!" );
+*/
+		
+		return SDKSelector.BILL_YIJIE;
+	}
+	
+	static public SDKSelector getMobileOperator() 
+	{
+        TelephonyManager telManager = (TelephonyManager)_context.getSystemService(Context.TELEPHONY_SERVICE); 
+        String operator = telManager.getSimOperator();
+        
+        Bundle metaData = null;
+		try 
+		{
+			metaData = _context.getPackageManager().getApplicationInfo(_context.getPackageName(), PackageManager.GET_META_DATA).metaData;
+		} 
+		catch (NameNotFoundException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		// 강제로 셋팅된 SDK 선택자가 있는지 여부
+		int BillType = opYIJIE;
+		if ( metaData.getString("BTypeValue") == null )
+			BillType = opYIJIE;
+		else
+		try
+		{
+			BillType = Integer.valueOf(metaData.getString("BTypeValue"));
+		}
+		catch(Exception ect)
+		{
+			BillType = opYIJIE;
+		}
+		
+		Log.e("BTypeValue: ", BillType + "");
+
+		if (BillType == opSP) {
+			return SDKSelector.BILL_SP;
+		} else if (BillType == opYIJIE) {
+			return SDKSelector.BILL_YIJIE;
+		}
+		
+/*		
+		// 강제 셋팅한게 없다면, SIM 에 따라서 자동 선택 되도록 처리
+        if (operator != null)
+        {
+            if ((operator.equals("46000") || operator.equals("46002"))) 
+            {
+            	if ((BillType & opCMCC_MM) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_MM!!!! :");
+            		return SDKSelector.BILL_CMMM;		
+				} 
+            	else if ((BillType & opCMCC_GC) != opMISMATCHES) 
+            	{
+        			System.out.println("Brandon : CMCC_GC!!!! :");
+					return SDKSelector.BILL_CMGD;
+				}
+            	
+            	return SDKSelector.BILL_CMGD;
+            } 
+            else 
+            if (operator.equals("46001") && (BillType & opUNICOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : UNICOM!!!! :");
+    			
+            	return SDKSelector.BILL_UNICOM;
+            } 
+            else 
+            if (operator.equals("46003") && (BillType & opTELECOM) != opMISMATCHES) 
+            {
+    			System.out.println("Brandon : CTE!!!! :");
+            	
+            	return SDKSelector.BILL_DIANXIN;
+            }
+            else
+                if ((BillType & opSP) != opMISMATCHES) 
+                {
+        			System.out.println("Brandon : SP!!!! :");
+                	
+                	return SDKSelector.BILL_SP;
+                }
+            	
+            
+    		System.out.println("Brandon : Cannot check !! :" + operator);
+        }
+        else
+*/        
+		return SDKSelector.BILL_YIJIE;
+    }
+	
+	// #2-1. 결제 모듈 팩토리 초기화
+	public static void init(
+			Activity context, BillingListener MainListener,
+			String AnySDK_AppKey, String AnySDK_AppSecret, String AnySDK_privateKey, String AnySDK_oauthLoginServer,
+			String MM_appID, String MM_appkey, 
+			String Company, String Telephone, String appName
+			) 
+	{
+		if (!_bIniting && !_bInited) 
+		{
+			_bIniting = true;
+			_context = context;
+			if (_singleton == null) 
+			{
+				System.out.println("MiguSDK Version : " + sdk_version);
+				
+				_Company = Company;
+				_Telephone = Telephone;
+				_appName = appName;
+				
+				_singleton = new MiguSDKFactory( MainListener,
+						AnySDK_AppKey, AnySDK_AppSecret, AnySDK_privateKey, AnySDK_oauthLoginServer,
+						MM_appID, MM_appkey,
+						Company, Telephone, appName);
+			}
+			_bIniting = false;
+		}
+	}
+		
+	// #2-2. 팩토리 생성자
+	private MiguSDKFactory( BillingListener MainListener,
+			String AnySDK_AppKey, String AnySDK_AppSecret, String AnySDK_privateKey, String AnySDK_oauthLoginServer,
+			String MM_appid, String MM_appkey,
+			String Company, String Telephone, String appName 
+			) 
+	{
+		migu_appid = MM_appid;
+		migu_appkey = MM_appkey;
+		
+		switch (getBuildType(_context)) 
+		{
+			case BILL_SP:
+				SP_Manager.initSingleton(_context, MainListener);
+			break;
+			default:
+				YiJie_Manager.initSingleton(_context, MainListener);
+				break;
+		}
+		
+		_bInited = true;
+	}
+	
+	
+	public Activity getContext() {
+		return _context;
+	}
+	
+	public synchronized static MiguSDKFactory getInstance() 
+	{
+		return _singleton;
+	}
+	
+	protected void initFinished() {
+		_bInited = true;
+	}
+	
+	public int getMobileOperatorType()
+	{
+		SDKSelector whattype = getMobileOperator();
+		
+		return 0;
+	}
+	
+	
+	public void pay(Context context, String smsPayItem, String paycode_3rd, String props, String Money, BillingListener listener, boolean isRepeated) 
+	{
+		if (!_bInited) 
+		{
+			System.out.println("Brandon : not yet init !!!!");
+		}
+		else  
+		{
+			switch (getBuildType(_context)) 
+			{
+				case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+					_smsPayer = YiJie_Manager.getInstance();
+					_smsPayer.pay(context, smsPayItem, paycode_3rd, props, Money, listener, isRepeated);
+					break;
+				case BILL_SP:
+					_smsPayer = SP_Manager.getInstance();
+					_smsPayer.pay(context, smsPayItem, paycode_3rd, props, Money, listener, isRepeated);
+				break;
+				default:
+					listener.onPurchaseFailed(smsPayItem, "no singleton!!!!");
+				break;
+			}
+			
+		}
+	}
+	
+	public void exitGame(Context context, ExitGameListener listener) 
+	{
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+				_smsPayer = YiJie_Manager.getInstance();
+			break;
+			case BILL_SP:
+				_smsPayer = SP_Manager.getInstance();
+			break;
+			default:
+				listener.onExitGameConfirmExit();
+			return;
+		}
+		
+		System.out.println("Brandon : ask exit!!!! :");
+		
+		_smsPayer.exitGame(context, listener);
+	}
+	
+	public void viewMoreGames(Context context) 
+	{
+		switch (getBuildType(_context)) 
+		{
+		case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+			_smsPayer = YiJie_Manager.getInstance();
+			break;
+			case BILL_SP:
+				_smsPayer = SP_Manager.getInstance();
+			break;
+			default:
+			return;
+		}
+		
+		_smsPayer.viewMoreGames(context);
+	}
+	
+	public boolean isMusicEnabled() 
+	{
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+				_smsPayer = YiJie_Manager.getInstance();
+			break;
+			case BILL_SP:
+				_smsPayer = SP_Manager.getInstance();
+			break;
+			default:
+			return true;
+		}
+		
+		return _smsPayer.isMusicEnabled();
+	}	
+	
+	public void doScreenShotShare(Context context, final Uri uri)
+	{
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+				_smsPayer = YiJie_Manager.getInstance();
+			break;
+			case BILL_SP:
+				_smsPayer = SP_Manager.getInstance();
+			break;
+			default:
+			return;
+		}
+		
+		_smsPayer.doScreenShotShare(context, uri);
+	}
+	
+	public void Pause(Context context)
+	{
+		System.out.println("onPause");
+		
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+			// _smsPayer = YiJie_Manager.onPause();
+			break;
+		}
+	}
+	
+	public void Resume(Context context, boolean appforeground)
+	{
+		System.out.println("onResume");
+
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+			//_smsPayer = YiJie_Manager.onResume();	
+				SFOnlineHelper.onDestroy((Activity)context);
+			break;
+			default:
+			return;
+		}
+	}
+	
+	public void Stop(Context context)
+	{
+		System.out.println("onStop");
+
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+			// _smsPayer = YiJie_Manager.Stop();	
+				SFOnlineHelper.onStop((Activity)context);
+			break;
+			
+			default:
+			return;
+		}
+		
+	}
+	
+	public void Destroy(Context context)
+	{
+		System.out.println("onDestroy");
+		 
+		switch (getBuildType(_context)) 
+		{
+			case BILL_YIJIE:		// 여기에 ANYSDK 처리할것
+			//_smsPayer = YiJie_Manager.onDestroy();	
+				SFOnlineHelper.onDestroy((Activity)context);
+			break;
+			default:
+			return;
+		}
+	}
+	
+	public void AboutUs(Context context)
+	{
+		showDialog(context, "关于", "应用名称:" + _appName + "\n应用类型:手游\n公司名称:浙江弥谷网络科技有限公司\n客服电话:57182877709\n版本号:1.00\n免责声明：本游戏版权归浙江弥谷网络科技有限公司所有，游戏中的文字、图片等内容均为游戏版权所有者的个人态度或立场，炫彩公司（中国电信）对此不承担任何法律责任。" );
+	}
+	
+	public void showDialog(Context context, String title, String msg) {
+        final String curMsg = msg;
+        final String curTitle = title;
+        final Context __context = context;
+
+        mUIHandler.post( new Runnable()
+		{
+            @Override
+            public void run() {
+                new AlertDialog.Builder(__context)
+                .setTitle(curTitle)
+                .setMessage(curMsg)
+                .setPositiveButton("Ok", 
+                        new DialogInterface.OnClickListener() {
+                            
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                
+                            }
+                        }).create().show();
+            }
+        });
+    }
+
+	public void NoticeToMiguServer(final String payidx, final String money, final String channel) throws ClientProtocolException, IOException
+	{
+		Thread thread1 = new Thread(new Runnable()
+	    {
+		    public void run()
+		    { 
+	    	try {		
+				HttpPost request = makeHttpPost( "http://open.miguyouxi.com/index.php", migu_appid, migu_appkey, payidx, money, channel);
+				HttpClient client = new DefaultHttpClient() ;  
+				ResponseHandler<String> reshandler = new BasicResponseHandler() ;
+				String result = client.execute( request, reshandler ) ;  
+				System.out.println("Brandon : log result : " + result);
+	    		}
+	           catch (Exception e)
+	           {
+	           }
+
+		    }
+	    });
+		
+	    thread1.start();
+	}
+	
+	private HttpPost makeHttpPost(String url, String appid, String appkey, String payidx, String money, String channel) 
+	{  
+		// TODO Auto-generated method stub  
+		HttpPost request = new HttpPost( url ) ;  
+		Vector<NameValuePair> nameValue = new Vector<NameValuePair>() ;  
+		nameValue.add( new BasicNameValuePair( "appid", appid ) ) ; 
+		
+        String key = getMD5Hash( appkey + "com.miguyouxi");
+                
+        String orderkey = getMD5Hash( appid + Secure.ANDROID_ID + System.currentTimeMillis() );
+        
+		nameValue.add( new BasicNameValuePair( "key", key ) ) ;  
+		nameValue.add( new BasicNameValuePair( "action", "setLog" ) ) ;  
+		nameValue.add( new BasicNameValuePair( "order", orderkey ) ) ;  
+		nameValue.add( new BasicNameValuePair( "player", Secure.ANDROID_ID ) ) ;  
+		nameValue.add( new BasicNameValuePair( "item", payidx ) ) ;  
+		nameValue.add( new BasicNameValuePair( "money", money ) ) ;  
+		nameValue.add( new BasicNameValuePair( "channel", channel ) ) ;  
+		request.setEntity( makeEntity(nameValue) ) ;  
+		return request ;  
+	}  
+	
+	private HttpEntity makeEntity( Vector<NameValuePair> $nameValue ) 
+	{  
+		HttpEntity result = null ;  
+		try {  
+			result = new UrlEncodedFormEntity( $nameValue ) ;  
+		} catch (UnsupportedEncodingException e) 
+		{  
+			// TODO Auto-generated catch block  
+			e.printStackTrace();  
+		}  
+
+		return result ;  
+	}  
+	
+	public static String getMD5Hash(String s) {
+		  MessageDigest m = null;
+		  String hash = null;
+
+		  try {
+		    m = MessageDigest.getInstance("MD5");
+		    m.update(s.getBytes(),0,s.length());
+		    hash = new BigInteger(1, m.digest()).toString(16);
+		  } catch (NoSuchAlgorithmException e) {
+		    e.printStackTrace();
+		  }
+		  return hash;
+		}  	
+}

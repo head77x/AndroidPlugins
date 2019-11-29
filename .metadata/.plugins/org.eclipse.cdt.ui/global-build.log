@@ -1,0 +1,2883 @@
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+NDK_ROOT not defined. Please define NDK_ROOT in your environment
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Traceback (most recent call last):
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: The following directories were searched:    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK:         
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+The Selected NDK toolchain version was 4.8 !
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+Android NDK: The following directories were searched:    
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Traceback (most recent call last):
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+Android NDK: The following directories were searched:    
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+Android NDK:         
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Traceback (most recent call last):
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK: The following directories were searched:    
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+Android NDK:         
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Traceback (most recent call last):
+Android NDK: The following directories were searched:    
+Android NDK:         
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Traceback (most recent call last):
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: The following directories were searched:    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Traceback (most recent call last):
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK: The following directories were searched:    
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+Android NDK:         
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+The Selected NDK toolchain version was 4.8 !
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: The following directories were searched:    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+The Selected NDK toolchain version was 4.8 !
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Traceback (most recent call last):
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+Traceback (most recent call last):
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+The Selected NDK toolchain version was 4.8 !
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:90: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Traceback (most recent call last):
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK: The following directories were searched:    
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: *** No rule to make target `jni/../../Classes/AppDelegate.cpp', needed by `obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/AppDelegate.o'.  Stop.
+make.exe: *** Waiting for unfinished jobs....
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: *** No rule to make target `jni/../../Classes/AppDelegate.cpp', needed by `obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/AppDelegate.o'.  Stop.
+make.exe: *** Waiting for unfinished jobs....
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= main.cpp
+jni/hellocpp/main.cpp:1:25: fatal error: AppDelegate.h: No such file or directory
+ #include "AppDelegate.h"
+                         ^
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/cocos2dcpp_shared/hellocpp/main.o] Error 1
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+Traceback (most recent call last):
+The Selected NDK toolchain version was 4.8 !
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release all 
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Traceback (most recent call last):
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+The Selected NDK toolchain version was 4.8 !
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+Android NDK: The following directories were searched:    
+Android NDK:         
+Traceback (most recent call last):
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+Traceback (most recent call last):
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+Traceback (most recent call last):
+The Selected NDK toolchain version was 4.8 !
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+jni/Android.mk:96: *** Android NDK: Aborting.    .  Stop.
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+Android NDK: The following directories were searched:    
+Android NDK:         
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+jni/Android.mk:96: *** Android NDK: Aborting.    .  Stop.
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+Traceback (most recent call last):
+The Selected NDK toolchain version was 4.8 !
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/external    
+Android NDK: WARNING: Ignoring unknown import directory: jni/../../../cocos2d/cocos    
+Android NDK: jni/Android.mk: Cannot find module with tag '.' in import path    
+Android NDK: Are you sure your NDK_MODULE_PATH variable is properly defined ?    
+Android NDK: The following directories were searched:    
+Android NDK:         
+jni/Android.mk:92: *** Android NDK: Aborting.    .  Stop.
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+The Selected NDK toolchain version was 4.8 !
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/Android/Space/CountKing2/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/Android/Space/CountKing2'
+make.exe: *** No rule to make target `jni/../../Classes/AppDelegate.cpp', needed by `obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/AppDelegate.o'.  Stop.
+make.exe: *** Waiting for unfinished jobs....
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= main.cpp
+jni/hellocpp/main.cpp:1:25: fatal error: AppDelegate.h: No such file or directory
+make.exe: Leaving directory `D:/Android/Space/CountKing2'
+ #include "AppDelegate.h"
+                         ^
+The Selected NDK toolchain version was 4.8 !
+compilation terminated.
+make.exe: *** [obj/local/armeabi/objs/cocos2dcpp_shared/hellocpp/main.o] Error 1
+Traceback (most recent call last):
+  File "D:/Android/Space/CountKing2/build_native.py", line 159, in <module>
+    build(opts.ndk_build_param,opts.android_platform,opts.build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 146, in build
+    do_build(cocos_root, ndk_root, app_android_root,ndk_build_param,sdk_root,android_platform,build_mode)
+  File "D:/Android/Space/CountKing2/build_native.py", line 82, in do_build
+    raise Exception("Build dynamic library for project [ " + app_android_root + " ] fails!")
+Exception: Build dynamic library for project [ D:\Android\Space\CountKing2 ] fails!
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= main.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= BaseScene.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= BaseLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ClipLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GScene.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneData.cpp
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp: In member function 'bool BaseLayer::init(int)':
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp:43:23: warning: 'void cocos2d::Layer::setTouchEnabled(bool)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLayer.h:121) [-Wdeprecated-declarations]
+   setTouchEnabled(true);
+                       ^
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp:49:30: warning: 'virtual void cocos2d::Layer::setKeypadEnabled(bool)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLayer.h:159) [-Wdeprecated-declarations]
+   this->setKeypadEnabled(true);
+                              ^
+In file included from jni/../../Classes/base/SceneManager.h:6:0,
+                 from jni/../../Classes/AppDelegate.cpp:6:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionJump.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GB2ShapeCache-x.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GLES-Render.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Box2DManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ClipSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= JSprite.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= CubicBezier.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= QuadBezier.cpp
+In file included from jni/../../../GameBase/Classes/sprite/Box2DManager.cpp:1:0:
+jni/../../../GameBase/Classes/sprite/Box2DManager.h: In destructor 'B2D_USER_DATA_::~B2D_USER_DATA_()':
+jni/../../../GameBase/Classes/sprite/Box2DManager.h:94:11: warning: deleting 'void*' is undefined [enabled by default]
+    delete userData;
+           ^
+In file included from jni/../../../GameBase/Classes/sprite/GB2ShapeCache-x.cpp:37:0:
+jni/../../../GameBase/Classes/sprite/Box2DManager.h: In destructor 'B2D_USER_DATA_::~B2D_USER_DATA_()':
+jni/../../../GameBase/Classes/sprite/Box2DManager.h:94:11: warning: deleting 'void*' is undefined [enabled by default]
+    delete userData;
+           ^
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= NumberSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= RectSprite.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteAnimater.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteCallback.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ActCallbackSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SkeletonSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionVisible.cpp
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp: In static member function 'static cocos2d::Label* SpriteManager::createTextSpriteAlignFont(cocos2d::Node*, const char*, float, float, float, float, FONTS, float, int, int, int, bool, bool)':
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp:501:117: warning: 'static cocos2d::Label* cocos2d::Label::create(const string&, const string&, float, const cocos2d::Size&, cocos2d::TextHAlignment, cocos2d::TextVAlignment)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabel.h:269) [-Wdeprecated-declarations]
+  text = Label::create(str, fontName, fontSize*FONT_SCALE, Size(w, h), (TextHAlignment)alignH, (TextVAlignment)alignV);
+                                                                                                                     ^
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp: In static member function 'static void SpriteManager::reorderSprite(cocos2d::Node*, int)':
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp:1293:26: warning: 'virtual void cocos2d::Node::setZOrder(int)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:155) [-Wdeprecated-declarations]
+  sprite->setZOrder(zorder);
+                          ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionFade.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GraySprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GRichText.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteTouchManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= CoordinateUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= IOUtilBinary.cpp
+In file included from jni/../../../cocos2d/cocos/./cocos2d.h:114:0,
+                 from jni/../../../GameBase/Classes/comm.h:8,
+                 from jni/../../../GameBase/Classes/sprite/SpriteData.h:4,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.h:6,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.cpp:1:
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:77:77: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+                              TextVAlignment vAlignment = TextVAlignment::TOP);
+                                                                             ^
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:81:105: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * createWithFontDefinition(const std::string& string, FontDefinition &textDefinition);
+                                                                                                         ^
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:116:30: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * create();
+                              ^
+In file included from jni/../../../cocos2d/cocos/./cocos2d.h:115:0,
+                 from jni/../../../GameBase/Classes/comm.h:8,
+                 from jni/../../../GameBase/Classes/sprite/SpriteData.h:4,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.h:6,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.cpp:1:
+jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:88:186: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create(const std::string& str, const std::string& fntFile, float width = 0, TextHAlignment alignment = TextHAlignment::LEFT,const Vec2& imageOffset = Vec2::ZERO);
+                                                                                                                                                                                          ^
+jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:92:33: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create();
+                                 ^
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= JString.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Thread.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= XVector.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= RefVector.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= NetworkUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameBaseData.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneBase.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameData.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= MissionData.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= OptionDatas.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Popup.cpp
+In file included from jni/../../Classes/base/SceneBase.cpp:1:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+jni/../../Classes/base/SceneBase.cpp: In function 'void clearThreadList_scene()':
+jni/../../Classes/base/SceneBase.cpp:100:19: warning: deleting 'void*' is undefined [enabled by default]
+    delete thread->mData;
+                   ^
+jni/../../Classes/base/SceneBase.cpp: At global scope:
+jni/../../Classes/base/SceneBase.cpp:1462:53: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+ void SceneBase::setHeartTimeUI(CCNode* spriteTxtTime) {
+                                                     ^
+In file included from jni/../../Classes/base/SceneManager.h:6:0,
+                 from jni/../../Classes/base/SceneManager.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/base/SceneManager.cpp:5:0:
+jni/../../Classes/main/SceneMain.h:75:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/main/SceneMain.h:76:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/main/SceneMain.h:77:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/main/SceneMain.h:78:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+jni/../../Classes/main/SceneMain.h:81:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendance;
+          ^
+jni/../../Classes/main/SceneMain.h:82:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupBase.cpp
+  CCNode* mSpritePopAttendanceTxt;
+          ^
+jni/../../Classes/main/SceneMain.h:83:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceBtnOK;
+          ^
+In file included from jni/../../Classes/base/SceneManager.cpp:6:0:
+jni/../../Classes/game/SceneGame.h:137:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/game/SceneGame.h:138:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/game/SceneGame.h:139:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/game/SceneGame.h:140:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupManager.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupOption.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupStore.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupCalc.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneLogo.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneMain.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneGame.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIWidget.cpp
+In file included from jni/../../Classes/comm/PopupOption.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayout.cpp
+In file included from jni/../../Classes/comm/PopupStore.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+jni/../../Classes/comm/PopupStore.cpp: In member function 'void PopupStore::openItemBoxOpen()':
+jni/../../Classes/comm/PopupStore.cpp:372:12: warning: 'cocos2d::CCAction' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:558) [-Wdeprecated-declarations]
+  CCAction* act = CCSequence::create(
+            ^
+In file included from jni/../../Classes/comm/PopupCalc.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayoutParameter.cpp
+In file included from jni/../../Classes/logo/SceneLogo.h:4:0,
+                 from jni/../../Classes/logo/SceneLogo.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+In file included from jni/../../Classes/main/SceneMain.h:4:0,
+                 from jni/../../Classes/main/SceneMain.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/main/SceneMain.cpp:1:0:
+jni/../../Classes/main/SceneMain.h:75:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/main/SceneMain.h:76:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/main/SceneMain.h:77:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/main/SceneMain.h:78:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+jni/../../Classes/main/SceneMain.h:81:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendance;
+          ^
+jni/../../Classes/main/SceneMain.h:82:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceTxt;
+          ^
+jni/../../Classes/main/SceneMain.h:83:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceBtnOK;
+          ^
+jni/../../Classes/main/SceneMain.cpp: In member function 'void SceneMain::closePopAttendance()':
+jni/../../Classes/main/SceneMain.cpp:981:12: warning: 'cocos2d::CCAction' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:558) [-Wdeprecated-declarations]
+  CCAction* act = CCSequence::create(
+            ^
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayoutManager.cpp
+In file included from jni/../../Classes/game/SceneGame.h:4:0,
+                 from jni/../../Classes/game/SceneGame.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/game/SceneGame.cpp:1:0:
+jni/../../Classes/game/SceneGame.h:137:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/game/SceneGame.h:138:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/game/SceneGame.h:139:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/game/SceneGame.h:140:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= CocosGUI.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIHelper.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UIListView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIPageView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIScrollView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIButton.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UICheckBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIImageView.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UIText.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextAtlas.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextBMFont.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UILoadingBar.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UISlider.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextField.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIRichText.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= CCProtectedNode.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIHBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIVBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIRelativeBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIVideoPlayerAndroid.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIDeprecated.cpp
+[armeabi] Compile thumb  : spine_static <= Animation.c
+[armeabi] Compile thumb  : spine_static <= AnimationState.c
+[armeabi] Compile thumb  : spine_static <= AnimationStateData.c
+[armeabi] Compile thumb  : spine_static <= Atlas.c
+[armeabi] Compile thumb  : spine_static <= AtlasAttachmentLoader.c
+[armeabi] Compile thumb  : spine_static <= Attachment.c
+[armeabi] Compile thumb  : spine_static <= AttachmentLoader.c
+[armeabi] Compile thumb  : spine_static <= Bone.c
+[armeabi] Compile thumb  : spine_static <= BoneData.c
+[armeabi] Compile thumb  : spine_static <= BoundingBoxAttachment.c
+[armeabi] Compile thumb  : spine_static <= Event.c
+[armeabi] Compile thumb  : spine_static <= EventData.c
+[armeabi] Compile thumb  : spine_static <= extension.c
+[armeabi] Compile thumb  : spine_static <= IkConstraint.c
+[armeabi] Compile thumb  : spine_static <= IkConstraintData.c
+[armeabi] Compile thumb  : spine_static <= Json.c
+[armeabi] Compile thumb  : spine_static <= MeshAttachment.c
+[armeabi] Compile++ thumb: spine_static <= PolygonBatch.cpp
+[armeabi] Compile thumb  : spine_static <= RegionAttachment.c
+[armeabi] Compile thumb  : spine_static <= Skeleton.c
+[armeabi] Compile++ thumb: spine_static <= SkeletonAnimation.cpp
+[armeabi] Compile thumb  : spine_static <= SkeletonBounds.c
+[armeabi] Compile thumb  : spine_static <= SkeletonData.c
+[armeabi] Compile thumb  : spine_static <= SkeletonJson.c
+[armeabi] Compile++ thumb: spine_static <= SkeletonRenderer.cpp
+[armeabi] Compile thumb  : spine_static <= Skin.c
+[armeabi] Compile thumb  : spine_static <= SkinnedMeshAttachment.c
+[armeabi] Compile thumb  : spine_static <= Slot.c
+[armeabi] Compile thumb  : spine_static <= SlotData.c
+[armeabi] Compile++ thumb: spine_static <= spine-cocos2dx.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= HttpClient.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= SocketIO.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= WebSocket.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= AssetsManager.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControl.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlButton.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlColourPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlHuePicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlPotentiometer.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSaturationBrightnessPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSlider.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlStepper.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSwitch.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlUtils.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCInvocation.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScale9Sprite.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBox.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplNone.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplWin.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScrollView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableViewCell.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsDebugNode.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= cocos2d.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCamera.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCatmullRom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionEase.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInstant.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInterval.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionManager.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionPageTurn3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTiledGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTween.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimationCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAtlasNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCClippingNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponentContainer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawingPrimitives.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlasCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontCharMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFNT.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFreeType.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLBufferedNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrabber.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabel.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelBMFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTextFormatter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenu.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenuItem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMotionStreak.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNodeGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParallaxNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleExamples.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystemQuad.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderTexture.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScene.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrame.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrameCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXObjectGroup.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXXMLParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextFieldTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTileMapAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransition.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionPageTurn.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionProgress.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTweenFunction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimate3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundle3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundleReader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMesh.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshSkin.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3DMaterial.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCObjLoader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLViewProtocol.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFileUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSAXParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCThread.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCImage.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAffineTransform.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGeometry.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCVertex.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Mat4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= MathUtil.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Quaternion.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TransformUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec3.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAutoreleasePool.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConfiguration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConsole.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCData.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDataVisitor.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDirector.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEvent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListener.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCIMEDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNS.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProfiling.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRef.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScheduler.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScriptSupport.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefault.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefaultAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCValue.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TGAlib.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ZipUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= atitc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= base64.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccCArray.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ccFPSImages.c
+[armeabi] Compile++ thumb: cocos2dx_static <= ccTypes.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUTF8.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= etc1.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= s3tc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController-android.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ObjectFactory.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBatchCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCCustomCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgram.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramState.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGroupCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCQuadCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTexture2D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccGLStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccShaders.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCArray.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSet.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCString.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDictionary.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDeprecated.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNotificationCenter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBody.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContact.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJoint.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShape.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorld.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBodyInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContactInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJointInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShapeInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorldInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ConvertUTFWrapper.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ConvertUTF.c
+[armeabi] Compile++ thumb: cocos2dx_static <= tinyxml2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ioapi.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= unzip.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= edtaa3func.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= xxhash.c
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddSimpleAudioEngine.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= ccdandroidUtils.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddandroidAndroidJavaEngine.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BroadPhase.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideCircle.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideEdge.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollidePolygon.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Collision.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Distance.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DynamicTree.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2TimeOfImpact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BlockAllocator.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Draw.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Math.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Settings.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2StackAllocator.cpp
+In file included from jni/../../../cocos2d/cocos/audio/android/../../cocos2d.h:114:0,
+                 from jni/../../../cocos2d/cocos/audio/android/ccdandroidUtils.cpp:26:
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:77:77: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+                              TextVAlignment vAlignment = TextVAlignment::TOP);
+                                                                             ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:81:105: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * createWithFontDefinition(const std::string& string, FontDefinition &textDefinition);
+                                                                                                         ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:116:30: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * create();
+                              ^
+[armeabi] Compile++ thumb: box2d_static <= b2Timer.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Body.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ContactManager.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Fixture.cpp
+In file included from jni/../../../cocos2d/cocos/audio/android/../../cocos2d.h:115:0,
+                 from jni/../../../cocos2d/cocos/audio/android/ccdandroidUtils.cpp:26:
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:88:186: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create(const std::string& str, const std::string& fntFile, float width = 0, TextHAlignment alignment = TextHAlignment::LEFT,const Vec2& imageOffset = Vec2::ZERO);
+                                                                                                                                                                                          ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:92:33: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create();
+                                 ^
+[armeabi] Compile++ thumb: box2d_static <= b2Island.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2World.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WorldCallbacks.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Contact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ContactSolver.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DistanceJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2FrictionJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2GearJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Joint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2MotorJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2MouseJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PrismaticJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PulleyJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RevoluteJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RopeJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WeldJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WheelJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Rope.cpp
+[armeabi] Compile thumb  : chipmunk_static <= chipmunk.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArbiter.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArray.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBB.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBBTree.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBody.c
+[armeabi] Compile thumb  : chipmunk_static <= cpCollision.c
+[armeabi] Compile thumb  : chipmunk_static <= cpHashSet.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPolyShape.c
+[armeabi] Compile thumb  : chipmunk_static <= cpShape.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpace.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceComponent.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceHash.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceQuery.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceStep.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpatialIndex.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSweep1D.c
+[armeabi] Compile thumb  : chipmunk_static <= cpVect.c
+[armeabi] Compile thumb  : chipmunk_static <= cpConstraint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedRotarySpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedSpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGearJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGrooveJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPinJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPivotJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRatchetJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRotaryLimitJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSimpleMotor.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSlideJoint.c
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCApplication.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCCommon.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCDevice.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCGLView.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCFileUtilsAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= javaactivity.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= DPIJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= IMEJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= JniHelper.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= TouchesJni.cpp
+[armeabi] Compile thumb  : cpufeatures <= cpu-features.c
+[armeabi] StaticLibrary  : libui.a
+[armeabi] StaticLibrary  : libspine.a
+[armeabi] StaticLibrary  : libnetwork.a
+[armeabi] StaticLibrary  : libextension.a
+[armeabi] StaticLibrary  : libcocos2d.a
+[armeabi] StaticLibrary  : libcocosdenshion.a
+[armeabi] StaticLibrary  : libbox2d.a
+[armeabi] StaticLibrary  : libchipmunk.a
+[armeabi] StaticLibrary  : libcpufeatures.a
+[armeabi] StaticLibrary  : libcocos2dandroid.a
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-15 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= main.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= AppDelegate.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= BaseScene.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= BaseLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ClipLayer.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GScene.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneData.cpp
+In file included from jni/../../Classes/base/SceneManager.h:6:0,
+                 from jni/../../Classes/AppDelegate.cpp:6:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp: In member function 'bool BaseLayer::init(int)':
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp:43:23: warning: 'void cocos2d::Layer::setTouchEnabled(bool)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLayer.h:121) [-Wdeprecated-declarations]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionJump.cpp
+   setTouchEnabled(true);
+                       ^
+jni/../../../GameBase/Classes/scene/BaseLayer.cpp:49:30: warning: 'virtual void cocos2d::Layer::setKeypadEnabled(bool)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLayer.h:159) [-Wdeprecated-declarations]
+   this->setKeypadEnabled(true);
+                              ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GB2ShapeCache-x.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GLES-Render.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Box2DManager.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ClipSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= JSprite.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= CubicBezier.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= QuadBezier.cpp
+In file included from jni/../../../GameBase/Classes/sprite/GB2ShapeCache-x.cpp:37:0:
+jni/../../../GameBase/Classes/sprite/Box2DManager.h: In destructor 'B2D_USER_DATA_::~B2D_USER_DATA_()':
+jni/../../../GameBase/Classes/sprite/Box2DManager.h:94:11: warning: deleting 'void*' is undefined [enabled by default]
+    delete userData;
+           ^
+In file included from jni/../../../GameBase/Classes/sprite/Box2DManager.cpp:1:0:
+jni/../../../GameBase/Classes/sprite/Box2DManager.h: In destructor 'B2D_USER_DATA_::~B2D_USER_DATA_()':
+jni/../../../GameBase/Classes/sprite/Box2DManager.h:94:11: warning: deleting 'void*' is undefined [enabled by default]
+    delete userData;
+           ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= NumberSprite.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= RectSprite.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteAnimater.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteCallback.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= ActCallbackSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SkeletonSprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionVisible.cpp
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp: In static member function 'static cocos2d::Label* SpriteManager::createTextSpriteAlignFont(cocos2d::Node*, const char*, float, float, float, float, FONTS, float, int, int, int, bool, bool)':
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp:501:117: warning: 'static cocos2d::Label* cocos2d::Label::create(const string&, const string&, float, const cocos2d::Size&, cocos2d::TextHAlignment, cocos2d::TextVAlignment)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabel.h:269) [-Wdeprecated-declarations]
+  text = Label::create(str, fontName, fontSize*FONT_SCALE, Size(w, h), (TextHAlignment)alignH, (TextVAlignment)alignV);
+                                                                                                                     ^
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp: In static member function 'static void SpriteManager::reorderSprite(cocos2d::Node*, int)':
+jni/../../../GameBase/Classes/sprite/SpriteManager.cpp:1293:26: warning: 'virtual void cocos2d::Node::setZOrder(int)' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:155) [-Wdeprecated-declarations]
+  sprite->setZOrder(zorder);
+                          ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GActionFade.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GraySprite.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GRichText.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SpriteTouchManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= CoordinateUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= IOUtilBinary.cpp
+In file included from jni/../../../cocos2d/cocos/./cocos2d.h:114:0,
+                 from jni/../../../GameBase/Classes/comm.h:8,
+                 from jni/../../../GameBase/Classes/sprite/SpriteData.h:4,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.h:6,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.cpp:1:
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:77:77: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+                              TextVAlignment vAlignment = TextVAlignment::TOP);
+                                                                             ^
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:81:105: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * createWithFontDefinition(const std::string& string, FontDefinition &textDefinition);
+                                                                                                         ^
+jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:116:30: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+     static LabelTTF * create();
+                              ^
+In file included from jni/../../../cocos2d/cocos/./cocos2d.h:115:0,
+                 from jni/../../../GameBase/Classes/comm.h:8,
+                 from jni/../../../GameBase/Classes/sprite/SpriteData.h:4,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.h:6,
+                 from jni/../../../GameBase/Classes/sprite/GRichText.cpp:1:
+jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:88:186: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create(const std::string& str, const std::string& fntFile, float width = 0, TextHAlignment alignment = TextHAlignment::LEFT,const Vec2& imageOffset = Vec2::ZERO);
+                                                                                                                                                                                          ^
+jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:92:33: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create();
+                                 ^
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= JString.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Thread.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= XVector.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= RefVector.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= NetworkUtil.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameBaseData.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneBase.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneManager.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= GameData.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= MissionData.cpp
+In file included from jni/../../Classes/base/SceneBase.cpp:1:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+jni/../../Classes/base/SceneBase.cpp: In function 'void clearThreadList_scene()':
+jni/../../Classes/base/SceneBase.cpp:100:19: warning: deleting 'void*' is undefined [enabled by default]
+    delete thread->mData;
+                   ^
+jni/../../Classes/base/SceneBase.cpp: At global scope:
+jni/../../Classes/base/SceneBase.cpp:1462:53: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+ void SceneBase::setHeartTimeUI(CCNode* spriteTxtTime) {
+                                                     ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= OptionDatas.cpp
+In file included from jni/../../Classes/base/SceneManager.h:6:0,
+                 from jni/../../Classes/base/SceneManager.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/base/SceneManager.cpp:5:0:
+jni/../../Classes/main/SceneMain.h:75:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/main/SceneMain.h:76:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/main/SceneMain.h:77:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/main/SceneMain.h:78:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+jni/../../Classes/main/SceneMain.h:81:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendance;
+          ^
+jni/../../Classes/main/SceneMain.h:82:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceTxt;
+          ^
+jni/../../Classes/main/SceneMain.h:83:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceBtnOK;
+          ^
+In file included from jni/../../Classes/base/SceneManager.cpp:6:0:
+jni/../../Classes/game/SceneGame.h:137:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/game/SceneGame.h:138:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/game/SceneGame.h:139:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/game/SceneGame.h:140:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= Popup.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupBase.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupManager.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupOption.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupCalc.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= PopupStore.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneLogo.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneMain.cpp
+[armeabi] Compile++ thumb: cocos2dcpp_shared <= SceneGame.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIWidget.cpp
+In file included from jni/../../Classes/comm/PopupOption.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayout.cpp
+In file included from jni/../../Classes/comm/PopupCalc.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/comm/PopupStore.cpp:11:0:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+jni/../../Classes/comm/PopupStore.cpp: In member function 'void PopupStore::openItemBoxOpen()':
+jni/../../Classes/comm/PopupStore.cpp:372:12: warning: 'cocos2d::CCAction' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:558) [-Wdeprecated-declarations]
+  CCAction* act = CCSequence::create(
+            ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayoutParameter.cpp
+In file included from jni/../../Classes/logo/SceneLogo.h:4:0,
+                 from jni/../../Classes/logo/SceneLogo.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UILayoutManager.cpp
+In file included from jni/../../Classes/main/SceneMain.h:4:0,
+                 from jni/../../Classes/main/SceneMain.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/main/SceneMain.cpp:1:0:
+jni/../../Classes/main/SceneMain.h:75:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/main/SceneMain.h:76:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/main/SceneMain.h:77:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/main/SceneMain.h:78:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+jni/../../Classes/main/SceneMain.h:81:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendance;
+          ^
+jni/../../Classes/main/SceneMain.h:82:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceTxt;
+          ^
+jni/../../Classes/main/SceneMain.h:83:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopAttendanceBtnOK;
+          ^
+jni/../../Classes/main/SceneMain.cpp: In member function 'void SceneMain::closePopAttendance()':
+jni/../../Classes/main/SceneMain.cpp:981:12: warning: 'cocos2d::CCAction' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:558) [-Wdeprecated-declarations]
+  CCAction* act = CCSequence::create(
+            ^
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+In file included from jni/../../Classes/game/SceneGame.h:4:0,
+                 from jni/../../Classes/game/SceneGame.cpp:1:
+jni/../../Classes/base/SceneBase.h:386:51: warning: 'CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./2d/CCNode.h:104) [-Wdeprecated-declarations]
+  virtual void setHeartTimeUI(CCNode* spriteTxtTime);
+                                                   ^
+In file included from jni/../../Classes/game/SceneGame.cpp:1:0:
+jni/../../Classes/game/SceneGame.h:137:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGS;
+          ^
+jni/../../Classes/game/SceneGame.h:138:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnClose;
+          ^
+jni/../../Classes/game/SceneGame.h:139:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnRank;
+          ^
+jni/../../Classes/game/SceneGame.h:140:10: warning: 'cocos2d::CCNode' is deprecated (declared at jni/../../../cocos2d/cocos/./deprecated/CCDeprecated.h:565) [-Wdeprecated-declarations]
+  CCNode* mSpritePopGGSBtnTrophy;
+          ^
+[armeabi] Compile++ thumb: cocos_ui_static <= CocosGUI.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIHelper.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIListView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIPageView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIScrollView.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIButton.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UICheckBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIImageView.cpp
+At global scope:
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= UIText.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextAtlas.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextBMFont.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UILoadingBar.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UISlider.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UITextField.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIRichText.cpp
+cc1plus.exe: warning: unrecognized command line option "-Wno-extern-c-compat" [enabled by default]
+[armeabi] Compile++ thumb: cocos_ui_static <= CCProtectedNode.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIHBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIVBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIRelativeBox.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIVideoPlayerAndroid.cpp
+[armeabi] Compile++ thumb: cocos_ui_static <= UIDeprecated.cpp
+[armeabi] Compile thumb  : spine_static <= Animation.c
+[armeabi] Compile thumb  : spine_static <= AnimationState.c
+[armeabi] Compile thumb  : spine_static <= AnimationStateData.c
+[armeabi] Compile thumb  : spine_static <= Atlas.c
+[armeabi] Compile thumb  : spine_static <= AtlasAttachmentLoader.c
+[armeabi] Compile thumb  : spine_static <= Attachment.c
+[armeabi] Compile thumb  : spine_static <= AttachmentLoader.c
+[armeabi] Compile thumb  : spine_static <= Bone.c
+[armeabi] Compile thumb  : spine_static <= BoneData.c
+[armeabi] Compile thumb  : spine_static <= BoundingBoxAttachment.c
+[armeabi] Compile thumb  : spine_static <= Event.c
+[armeabi] Compile thumb  : spine_static <= EventData.c
+[armeabi] Compile thumb  : spine_static <= extension.c
+[armeabi] Compile thumb  : spine_static <= IkConstraint.c
+[armeabi] Compile thumb  : spine_static <= IkConstraintData.c
+[armeabi] Compile thumb  : spine_static <= Json.c
+[armeabi] Compile thumb  : spine_static <= MeshAttachment.c
+[armeabi] Compile++ thumb: spine_static <= PolygonBatch.cpp
+[armeabi] Compile thumb  : spine_static <= RegionAttachment.c
+[armeabi] Compile thumb  : spine_static <= Skeleton.c
+[armeabi] Compile++ thumb: spine_static <= SkeletonAnimation.cpp
+[armeabi] Compile thumb  : spine_static <= SkeletonBounds.c
+[armeabi] Compile thumb  : spine_static <= SkeletonData.c
+[armeabi] Compile thumb  : spine_static <= SkeletonJson.c
+[armeabi] Compile++ thumb: spine_static <= SkeletonRenderer.cpp
+[armeabi] Compile thumb  : spine_static <= Skin.c
+[armeabi] Compile thumb  : spine_static <= SkinnedMeshAttachment.c
+[armeabi] Compile thumb  : spine_static <= Slot.c
+[armeabi] Compile thumb  : spine_static <= SlotData.c
+[armeabi] Compile++ thumb: spine_static <= spine-cocos2dx.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= HttpClient.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= SocketIO.cpp
+[armeabi] Compile++ thumb: cocos_network_static <= WebSocket.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= AssetsManager.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControl.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlButton.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlColourPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlHuePicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlPotentiometer.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSaturationBrightnessPicker.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSlider.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlStepper.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlSwitch.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCControlUtils.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCInvocation.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScale9Sprite.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBox.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplAndroid.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplNone.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCEditBoxImplWin.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCScrollView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableView.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCTableViewCell.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsDebugNode.cpp
+[armeabi] Compile++ thumb: cocos_extension_static <= CCPhysicsSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= cocos2d.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCamera.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionCatmullRom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionEase.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionGrid3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInstant.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionInterval.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionManager.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionPageTurn3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTiledGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCActionTween.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimationCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAtlasNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCClippingNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCComponentContainer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDrawingPrimitives.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontAtlasCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontCharMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFNT.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFontFreeType.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLBufferedNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrabber.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabel.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelBMFont.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLabelTextFormatter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenu.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMenuItem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMotionStreak.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNodeGrid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParallaxNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleExamples.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystem.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCParticleSystemQuad.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProgressTimer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderTexture.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScene.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteBatchNode.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrame.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSpriteFrameCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXLayer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXObjectGroup.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFastTMXTiledMap.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTMXXMLParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextFieldTTF.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTileMapAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransition.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionPageTurn.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTransitionProgress.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTweenFunction.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimate3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAnimation3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundle3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBundleReader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMesh.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshSkin.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3DMaterial.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCObjLoader.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSprite3D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLViewProtocol.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCFileUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSAXParser.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCThread.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCImage.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAffineTransform.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGeometry.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCVertex.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Mat4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= MathUtil.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Quaternion.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TransformUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec3.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= Vec4.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCAutoreleasePool.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConfiguration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCConsole.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCData.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDataVisitor.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDirector.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEvent.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListener.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerAcceleration.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerCustom.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerFocus.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerKeyboard.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventListenerTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventMouse.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCEventTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCIMEDispatcher.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNS.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCProfiling.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRef.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScheduler.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCScriptSupport.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTouch.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefault.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCUserDefaultAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCValue.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= TGAlib.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ZipUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= atitc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= base64.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccCArray.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ccFPSImages.c
+[armeabi] Compile++ thumb: cocos2dx_static <= ccTypes.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUTF8.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccUtils.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= etc1.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= s3tc.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCController-android.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ObjectFactory.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCBatchCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCCustomCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgram.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramState.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGLProgramStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCGroupCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCQuadCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCMeshCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderCommand.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTexture2D.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureAtlas.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCTextureCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccGLStateCache.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ccShaders.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCArray.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCSet.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCString.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDictionary.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCDeprecated.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCNotificationCenter.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBody.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContact.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJoint.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShape.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorld.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsBodyInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsContactInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsJointInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsShapeInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= CCPhysicsWorldInfo_chipmunk.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ConvertUTFWrapper.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= ConvertUTF.c
+[armeabi] Compile++ thumb: cocos2dx_static <= tinyxml2.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= ioapi.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= unzip.cpp
+[armeabi] Compile++ thumb: cocos2dx_static <= edtaa3func.cpp
+[armeabi] Compile thumb  : cocos2dx_static <= xxhash.c
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddSimpleAudioEngine.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= ccdandroidUtils.cpp
+[armeabi] Compile++ thumb: cocosdenshion_static <= cddandroidAndroidJavaEngine.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BroadPhase.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideCircle.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollideEdge.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CollidePolygon.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Collision.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Distance.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DynamicTree.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2TimeOfImpact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonShape.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2BlockAllocator.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Draw.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Math.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Settings.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2StackAllocator.cpp
+In file included from jni/../../../cocos2d/cocos/audio/android/../../cocos2d.h:114:0,
+                 from jni/../../../cocos2d/cocos/audio/android/ccdandroidUtils.cpp:26:
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:77:77: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+                              TextVAlignment vAlignment = TextVAlignment::TOP);
+[armeabi] Compile++ thumb: box2d_static <= b2Timer.cpp
+                                                                             ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:81:105: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+[armeabi] Compile++ thumb: box2d_static <= b2Body.cpp
+     static LabelTTF * createWithFontDefinition(const std::string& string, FontDefinition &textDefinition);
+                                                                                                         ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:116:30: warning: 'LabelTTF' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelTTF.h:59) [-Wdeprecated-declarations]
+[armeabi] Compile++ thumb: box2d_static <= b2ContactManager.cpp
+     static LabelTTF * create();
+[armeabi] Compile++ thumb: box2d_static <= b2Fixture.cpp
+                              ^
+[armeabi] Compile++ thumb: box2d_static <= b2Island.cpp
+In file included from jni/../../../cocos2d/cocos/audio/android/../../cocos2d.h:115:0,
+                 from jni/../../../cocos2d/cocos/audio/android/ccdandroidUtils.cpp:26:
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:88:186: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+[armeabi] Compile++ thumb: box2d_static <= b2World.cpp
+     static LabelBMFont * create(const std::string& str, const std::string& fntFile, float width = 0, TextHAlignment alignment = TextHAlignment::LEFT,const Vec2& imageOffset = Vec2::ZERO);
+                                                                                                                                                                                          ^
+jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:92:33: warning: 'LabelBMFont' is deprecated (declared at jni/../../../cocos2d/cocos/audio/android/../../2d/CCLabelBMFont.h:74) [-Wdeprecated-declarations]
+     static LabelBMFont * create();
+                                 ^
+[armeabi] Compile++ thumb: box2d_static <= b2WorldCallbacks.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ChainAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2CircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Contact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2ContactSolver.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2EdgeAndPolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonAndCircleContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PolygonContact.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2DistanceJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2FrictionJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2GearJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Joint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2MotorJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2MouseJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PrismaticJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2PulleyJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RevoluteJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2RopeJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WeldJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2WheelJoint.cpp
+[armeabi] Compile++ thumb: box2d_static <= b2Rope.cpp
+[armeabi] Compile thumb  : chipmunk_static <= chipmunk.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArbiter.c
+[armeabi] Compile thumb  : chipmunk_static <= cpArray.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBB.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBBTree.c
+[armeabi] Compile thumb  : chipmunk_static <= cpBody.c
+[armeabi] Compile thumb  : chipmunk_static <= cpCollision.c
+[armeabi] Compile thumb  : chipmunk_static <= cpHashSet.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPolyShape.c
+[armeabi] Compile thumb  : chipmunk_static <= cpShape.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpace.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceComponent.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceHash.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceQuery.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpaceStep.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSpatialIndex.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSweep1D.c
+[armeabi] Compile thumb  : chipmunk_static <= cpVect.c
+[armeabi] Compile thumb  : chipmunk_static <= cpConstraint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedRotarySpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpDampedSpring.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGearJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpGrooveJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPinJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpPivotJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRatchetJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpRotaryLimitJoint.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSimpleMotor.c
+[armeabi] Compile thumb  : chipmunk_static <= cpSlideJoint.c
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCApplication.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCCommon.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCDevice.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCGLView.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= CCFileUtilsAndroid.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= javaactivity.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= DPIJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= IMEJni.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= JniHelper.cpp
+[armeabi] Compile++ thumb: cocos2dxandroid_static <= TouchesJni.cpp
+[armeabi] Compile thumb  : cpufeatures <= cpu-features.c
+[armeabi] StaticLibrary  : libui.a
+[armeabi] StaticLibrary  : libspine.a
+[armeabi] StaticLibrary  : libnetwork.a
+[armeabi] StaticLibrary  : libextension.a
+[armeabi] StaticLibrary  : libcocos2d.a
+[armeabi] StaticLibrary  : libcocosdenshion.a
+[armeabi] StaticLibrary  : libbox2d.a
+[armeabi] StaticLibrary  : libchipmunk.a
+[armeabi] StaticLibrary  : libcpufeatures.a
+[armeabi] StaticLibrary  : libcocos2dandroid.a
+[armeabi] SharedLibrary  : libcocos2dcpp.so
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****
+
+**** Build of configuration Release for project CountKing2_ch ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android_ch/build_native.py -b release all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android_ch'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Unity434f1/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/13. ChinaMobile(GB)/Android.Sdk_v20017/SDK/runtime/CMBilling.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/11. ChinaMobile(MM)/13-MMBillingSDK_RELEASE(v3.0.1)1014/IAP-SDK 3.0.1版/mmbilling3.0.1/libs/mmbilling.3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/3. Unicom(LIANTONG)/UniPay计费SDK单机版(V1.1.0)无电信支付B20131104/Multimode_UniPay_base.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/3. Unicom(LIANTONG)/UniPay计费SDK单机版(V1.1.0)无电信支付B20131104/Multimode_UniPay_extend.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/4. ChinaTelecom(DIANXIN)/android单机网游计费SDK20131218/单机计费SDK_CP使用文档/单机计费SDK_CP使用文档/libs/smspayforegame.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/4. ChinaTelecom(TIANYI)/gamestore/SDK2.0.2/SDK2.0.2/CTEStoreSDKLocalSms2.0.2/libs/CTEStoreSDKLocalSms2.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Publishing/RingTiger/SDK/AnySDK/AnySDK_for_WinX64_All-In-One/AnySDK_for_WinX64_All-In-One/MiSDKwithAnySDK/MiSDKDemoForUnity/Assets/Plugins/Android/libs/libPluginProtocolForJava_fat.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

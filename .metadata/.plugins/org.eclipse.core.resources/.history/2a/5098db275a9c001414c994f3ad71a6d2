@@ -1,0 +1,85 @@
+package com.netmego.miguyouxisdk;
+
+import com.netmego.megosdk.BillingPayListener;
+import com.netmego.megosdk.ExitListener;
+import com.netmego.megosdk.SDKFactoryBase;
+
+import android.app.Activity;
+import android.content.Context;
+import cn.cmgame.billing.api.BillingResult;
+import cn.cmgame.billing.api.GameInterface;
+import cn.cmgame.billing.api.LoginResult;
+import cn.cmgame.gamepad.api.Gamepad;
+import cn.cmgame.gamepad.api.KeyState;
+import cn.cmgame.leaderboard.api.GameLeaderboard;
+
+public class CMGD_Manager extends SDKFactoryBase
+{
+		private static CMGD_Manager _singletonSmsPayCMCC;
+		
+		private CMGD_Manager() {}
+		private CMGD_Manager(Activity activity, BillingPayListener listener) 
+		{
+			GameInterface.initializeApp(activity);
+			
+			GameInterface.setLoginListener(activity, new GameInterface.ILoginCallback()
+			{
+			      @Override
+			      public void onResult(int i, String s, Object o) 
+			      {
+			        System.out.println("Login.Result=" + s);
+			        if(i == LoginResult.SUCCESS_EXPLICIT){
+			          System.out.println("CMGD Login Success");
+			        }
+			        if(i == LoginResult.FAILED_EXPLICIT){
+			          System.out.println("CMGD Login Failed");
+			        }
+			        if(i == LoginResult.UNKOWN){
+			          System.out.println("CMGD Login Canceled.Internet problem");
+			        }
+			      }
+			    });			
+			
+			
+		}
+		
+		public static CMGD_Manager initSingleton(Activity context, BillingPayListener listener) 
+		{
+			if (_singletonSmsPayCMCC == null) 
+			{
+				_singletonSmsPayCMCC = new CMGD_Manager(context, listener);
+			}
+			return _singletonSmsPayCMCC;
+		}
+		
+		public static CMGD_Manager getInstance() 
+		{
+			return _singletonSmsPayCMCC;
+		}
+
+		@Override
+		public void pay(Context context, String smsPayItem, String props, String paycode_3rd, String Money, String AppID, BillingPayListener listener, boolean isRepeated) 
+		{
+			GameInterface.doBilling(context, true, isRepeated, smsPayItem, null, listener);
+		}
+
+		@Override
+		public void exitGame(Context context, ExitListener listener) 
+		{
+			GameInterface.exit(context, listener);
+		}
+
+
+		@Override
+		public void viewMoreGames(Context context) 
+		{
+			GameInterface.viewMoreGames(context);
+		}
+
+
+		@Override
+		public boolean isMusicEnabled() 
+		{
+			return GameInterface.isMusicEnabled();
+		}
+}

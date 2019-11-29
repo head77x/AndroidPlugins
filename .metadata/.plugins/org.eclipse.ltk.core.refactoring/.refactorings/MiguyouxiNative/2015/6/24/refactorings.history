@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;drawable&apos;&#x0D;&#x0A;- Original project: &apos;MiguyouxiNative&apos;&#x0D;&#x0A;- Destination element: &apos;drawable&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     dianxin_logo.png&#x0D;&#x0A;     ringtiger_logo.png&#x0D;&#x0A;- Update references to refactored element" description="Move files" element1="res/drawable-ldpi/dianxin_logo.png" element2="res/drawable-ldpi/ringtiger_logo.png" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1434096429737" target="res/drawable" units="0" version="1.0"/>
+</session>

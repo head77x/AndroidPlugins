@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;Nativetest&apos;&#x0D;&#x0A;- Original project: &apos;Nativetest&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     drawable-hdpi.meta&#x0D;&#x0A;     drawable.meta&#x0D;&#x0A;     layout.meta&#x0D;&#x0A;     raw.meta&#x0D;&#x0A;     values.meta" description="Delete elements" element1="res/layout.meta" element2="res/values.meta" element3="res/drawable-hdpi.meta" element4="res/drawable.meta" element5="res/raw.meta" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1427037163132" subPackages="false" version="1.0"/>
+</session>

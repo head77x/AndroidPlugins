@@ -1,0 +1,13 @@
+
+**** Clean-only build of configuration Release for project CountKing2 ****
+
+python D:/2016_02/netmego/countking/ShopCounter/proj.android/build_native.py -b release clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 14 in ./AndroidManifest.xml    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/./Android.mk:cocos2dx_static: LOCAL_LDLIBS is always ignored for static libraries    
+Android NDK: WARNING:jni/../../../cocos2d/cocos/platform/android/Android.mk:cocos2dxandroid_static: LOCAL_LDLIBS is always ignored for static libraries    
+make.exe: Entering directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+[armeabi] Install        : libcocos2dcpp.so => libs/armeabi/libcocos2dcpp.so
+make.exe: Leaving directory `D:/2016_02/netmego/countking/ShopCounter/proj.android'
+The Selected NDK toolchain version was 4.8 !
+
+**** Build Finished ****

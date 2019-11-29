@@ -1,0 +1,82 @@
+package com.netmego.miguyouxisdk;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.content.Context;
+import android.os.Bundle;
+import android.util.Log;
+
+import com.estore.lsms.tools.ApiParameter;
+import com.netmego.megosdk.BillingPayListener;
+import com.netmego.megosdk.MiguSDKFactory;
+import com.netmego.megosdk.SDKFactoryBase;
+import com.netmego.megosdk.MiguSDKFactory.BillingListener;
+
+/*
+ * Activity for Telecom_CTE
+ */
+public class Telecom_CTE_Activity extends Activity 
+{
+	public static String _smsPayItem;
+	public static String _props;
+	public static String _money;
+	public static String _appid;
+	public static SDKFactoryBase _smsPayer;
+	public static MiguSDKFactory _factory;
+	public static BillingListener _listener;
+	public static BillingPayListener _paylistener;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) 
+	{
+		super.onCreate(savedInstanceState);
+		_smsPayer.pay((Context)this, _smsPayItem, "", _props, _money, _appid, _paylistener, false);
+		
+	}
+
+	/**
+	 * Telecom Listener
+	 */
+	@Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) 
+	{
+        Bundle bdl = data.getExtras();
+        int payResultCode = bdl.getInt(ApiParameter.RESULTCODE);
+        String item = String.valueOf(requestCode);
+
+        if (ApiParameter.CTESTORE_SENDSUCCESS == payResultCode) 
+        {
+        	Log.e("CTE :", "success");
+            _listener.onPurchaseSucceed(item);
+            finish();
+        } 
+        else if (ApiParameter.CTESTORE_SENDFAILED == payResultCode) 
+        {
+        	if (_listener != null) 
+        	{
+				_listener.onPurchaseFailed(item, "send failed");
+			}
+        	
+        	Log.e("CTE :", "failed");
+        	finish();
+        } 
+        else if (ApiParameter.CTESTORE_USERCANCEL == payResultCode) 
+        {
+        	if (_listener != null) 
+        	{
+				_listener.onPurchaseCanceld(item);
+			}
+        	Log.e("CTE :", "cancel");
+        	finish();
+        } 
+        else 
+        {
+        	if (_listener != null) 
+        	{
+				_listener.onPurchaseFailed(item, "unknown failed");
+			}
+        	Log.e("CTE :", "failed");
+        	finish();
+        }
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/오션히어로/SDK/联通/UniPay计费SDK单机版(V1.1.0)无电信支付B20131104/UniPayTest/libs/Multimode_UniPay_base.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/오션히어로/SDK/联通/UniPay计费SDK单机版(V1.1.0)无电信支付B20131104/UniPayTest/libs/Multimode_UniPay_extend.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity356/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

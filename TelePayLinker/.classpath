@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity356/Editor/Data/PlaybackEngines/androidplayer/bin/classes.jar"/>
+	<classpathentry kind="lib" path="D:/R2FDesign/오션히어로/SDK/电信/android单机网游计费SDK20131218/单机计费SDK_CP使用文档/单机计费SDK_CP使用文档/libs/smspayforegame.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

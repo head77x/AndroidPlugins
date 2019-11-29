@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/2017_GavrintKorea/가브린트/Android POS/ApiDemo/mesdk3.2.0_20170726/mesdk3.2.0_20170726/lib/meSdk-3.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files (x86)/Unity4/Editor/Data/PlaybackEngines/androidplayer/release/bin/classes.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

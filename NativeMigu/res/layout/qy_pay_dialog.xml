@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="fill_parent"
+    android:background="@drawable/qy_pay_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/qy_iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10.0dp"
+        android:layout_marginTop="12.0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/qy_btn_close" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/qy_tv_cp_hint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="7dp"
+                android:lineSpacingExtra="3dp"
+                android:textColor="#282828"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/qy_tv_hint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="7dp"
+                android:lineSpacingExtra="3dp"
+                android:textColor="#5b6e7c"
+                android:textSize="13sp" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/qy_btn_confirm"
+        android:layout_width="110.67dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/qy_btn_confirm"
+        android:textColor="#317510" 
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp">
+    </Button>
+
+</LinearLayout>
